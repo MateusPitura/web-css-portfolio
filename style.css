@@ -1,0 +1,88 @@
+:root {
+    --secondary: #77574e;
+    --on-secondary: #ffffff;
+    --tertiary: #6b5d2f;
+    --surface: #fffbff;
+    --shadown: #000
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: var(--secondary);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 75px;
+    width: 100%;
+}
+
+.brand-name {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-name p{
+    color: var(--on-secondary);
+    font-size: 32px;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navigation li a{
+    color: var(--on-secondary);
+    text-decoration: none;
+}
+
+.navigation li{
+    padding: 0 10%;
+}
+
+.hero {
+    background-image: url("./asset/img/banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.display-name {
+    display: flex;
+    justify-content: center;
+    color: var(--on-secondary);
+    font-size: 64px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-shadow: 1px 2px 1px var(--shadown);
+
+}
+
+.about {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--surface)
+}
+
+.product {
+    background-color: var(--tertiary);
+}
+
+footer {
+    background-color: var(--secondary);
+}
