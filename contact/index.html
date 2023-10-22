@@ -1,48 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-    </head>
-    <body>
-        Contact
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h2>Contact</h2>
-            <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            <form>
-                <div>
-                    <label for="name">Nome:</label>
-                    <input id="name" name="name" type="text">
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input id="email" name="email" type="email">
-                </div>
-                <div>
-                    <label for="phone">Phone:</label>
-                    <input id="phone" name="phone" type="tel">
-                </div>
-                <div>
-                    <label for="message">Message:</label>
-                    <textarea id="message"></textarea>
-                </div>
-                <div>
-                    <label>
-                        <input type="submit" value="Enviar">
-                    </label>
-                </div>
-            </form>
-        </main>
-        <footer>
-            <p>All Rights Reserved. © 2018 Dominic Design By : Free Website templates</p>
-        </footer>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/reset.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="brand-name">
+            <p>Meu Portfolio</p>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div>
+                <h2>Contact</h2>
+                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus
+                </p>
+                <form action="https://google.com/search" method="get">
+                    <div class="input">
+                        <label for="name">Nome</label>
+                        <br><br>
+                        <div class="container">
+                            <input id="name" name="q" type="text">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <br><br>
+                        <div class="container">
+                            <input id="email" name="q" type="email">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label for="phone">Phone</label>
+                        <br><br>
+                        <div class="container">
+                            <input id="phone" name="q" type="tel">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label for="message">Message</label>
+                        <br><br>
+                        <div class="container">
+                            <textarea id="message" name="q" rows="5" required></textarea>
+                        </div>
+                    </div>
+                    <div class="button-input">
+                        <label>
+                            <input class="button" type="submit" value="ENVIAR">
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>Copyright © 2023 Mateus Pitura. Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+
 </html>

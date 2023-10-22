@@ -1,0 +1,164 @@
+:root {
+    --primary: #9b4429;
+    --primary-scrim: #692e1c;
+    --on-primary: #ffffff;
+    --secondary: #77574e;
+    --on-secondary: #ffffff;
+    --tertiary: #6b5d2f;
+    --on-tertiary: #ffffff;
+    --teriary-container: #f5e1a7;
+    --on-teriary-container: #231b00;
+    --surface: #fffbff;
+    --on-surface: #201a18;
+    --shadown: #000;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: var(--secondary);
+    display: flex;
+    flex-wrap: wrap;
+    height: 75px;
+    flex: 1;
+}
+
+.brand-name {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-width: 250px;
+}
+
+.brand-name p {
+    color: var(--on-secondary);
+    font-size: 32px;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 25px;
+
+}
+
+.navigation li a {
+    color: var(--on-secondary);
+    text-decoration: none;
+    min-width: 250px;
+}
+
+.navigation li {
+    padding: 5px 10px;
+}
+
+.contact {
+    background-color: var(--surface);
+    color: var(--on-surface);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact > div {
+    max-width: 1000px;
+    padding: 50px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.contact h2, .contact p{
+    padding: 10px 0px;
+}
+
+.input{
+    padding: 25px 0px;
+}
+
+.input label{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+}
+
+.input input{
+    display: flex;
+    flex: 1;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--teriary-container);
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: var(--on-teriary-container);
+}
+
+.input textarea{
+    display: flex;
+    flex: 1;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--teriary-container);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    color: var(--on-teriary-container);
+    resize: vertical;
+    min-height: 130px;
+}
+
+.button-input{
+    padding: 25px 0px;
+}
+
+.button{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--primary);
+    border: none;
+    padding: 15px;
+    color: var(--on-primary);
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--primary-scrim)
+}
+
+footer {
+    background-color: var(--secondary);
+    color: var(--on-secondary);
+    height: 200px;
+    display: flex;
+}
+
+footer div {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
