@@ -16,7 +16,7 @@ body {
 header {
     background-color: var(--secondary);
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     height: 75px;
     flex: 1;
 }
@@ -26,6 +26,7 @@ header {
     flex: 1;
     align-items: center;
     justify-content: center;
+    min-width: 250px;
 }
 
 .brand-name p{
@@ -34,25 +35,27 @@ header {
 }
 
 nav{
-    flex: 1;
     display: flex;
+    flex: 1;
     align-items: center;
-    justify-content: flex-end;
-    padding-right: 10%;
+    justify-content: center;
 }
 
 .navigation {
     display: flex;
     flex-wrap: nowrap;
+    padding: 0px 25px;
+    
 }
 
 .navigation li a{
     color: var(--on-secondary);
     text-decoration: none;
+    min-width: 250px;
 }
 
 .navigation li{
-    padding: 0 10%;
+    padding: 0 10px;
 }
 
 .hero {
@@ -93,7 +96,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     background-color: var(--surface);
-    margin: 50px 0px;
+    padding: 50px 0px;
     flex: 1;
 }
 
@@ -138,7 +141,6 @@ nav{
 .product {
     background-color: var(--tertiary);
     color: var(--on-tertiary);
-    margin-top: 50px;
 }
 
 .label{
