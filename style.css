@@ -2,7 +2,9 @@
     --secondary: #77574e;
     --on-secondary: #ffffff;
     --tertiary: #6b5d2f;
+    --on-tertiary: #ffffff;
     --surface: #fffbff;
+    --on-surface: #201a18;
     --shadown: #000;
     --white: #fff;
 }
@@ -91,7 +93,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     background-color: var(--surface);
-    margin: 50px;
+    margin: 50px 0px;
     flex: 1;
 }
 
@@ -109,12 +111,12 @@ nav{
     display: block;
 }
 
-.content h2{
+.header{
     font-size: 32px;
     padding-bottom: 20px;
 }
 
-.content p{
+.description{
     line-height: normal;
 }
 
@@ -130,12 +132,73 @@ nav{
 .image{
     max-width: 500px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .product {
     background-color: var(--tertiary);
+    color: var(--on-tertiary);
+    margin-top: 50px;
+}
+
+.label{
+    padding: 50px 50px 25px 50px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.label div{
+    display: block;
+    max-width: 1000px;
+}
+
+.itens{
+    padding: 25px 50px 50px 50px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.itens div{
+    max-width: 1000px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: var(--surface);
+    color: var(--on-surface);
+    margin: 20px;
+    border-radius: 10px;
+    min-width: 200px;
+}
+
+.card th, .card td{
+    padding: 20px;
+}
+
+.title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px
 }
 
 footer {
     background-color: var(--secondary);
+    color: var(--on-secondary);
+    height: 200px;
+    display: flex;
+}
+
+footer div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
