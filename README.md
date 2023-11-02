@@ -23,7 +23,7 @@ Site criado para o projeto da Ada. Consiste em um portfolio pessoal, no qual o c
 
 ## Como executar 
 
-1. Acesse o site
+1. Acesse o [site](https://mateuspitura.github.io/web-css-portfolio/)
 
 ## Tecnologias usadas 
 
