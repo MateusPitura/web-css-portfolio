@@ -107,7 +107,7 @@ nav{
     flex: 1;
     justify-content: center;
     align-items: flex-start;
-    min-width: 300px;
+    min-width: 180px;
 }
 
 .block{
@@ -131,7 +131,7 @@ nav{
     flex: 1;
     justify-content: center;
     align-items: flex-start;
-    min-width: 300px;
+    min-width: 180px;
 }
 
 .image{
@@ -205,4 +205,14 @@ footer div{
     align-items: center;
     text-align: center;
     padding: 20px;
+}
+
+@media (max-width: 425px){
+    header{
+        height: 100px;
+    }
+    .navigation{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
